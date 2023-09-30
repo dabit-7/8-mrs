@@ -7,7 +7,7 @@
 
 ![04](https://github.com/dabit-7/8-mrs/assets/30724543/837982c1-028c-4411-b475-1745955dc2b7)
 
-<video width="630" height="300" src="https://github.com/dabit-7/8-mrs/assets/30724543/21e0311b-1bc8-4fc8-869f-1059022104f8"></video>
+<video width="630" height="300" src="https://github.com/dabit-7/8-mrs/assets/30724543/21e0311b-1bc8-4fc8-869f-1059022104f8.mp4"></video>
 
 
 ![05](https://github.com/dabit-7/8-mrs/assets/30724543/fdd88deb-4f25-4a9f-8829-17491affccc9)
