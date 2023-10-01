@@ -57,7 +57,7 @@ html {
 <br>
 <br>
 
-<iframe width="auto" height="auto"
+<iframe id="Iframe"
 src="https://github.com/dabit-7/8-mrs/assets/30724543/21e0311b-1bc8-4fc8-869f-1059022104f8">
 </iframe>
 <p class="f1">Video 1 – StrainTest  and DIC</p>
@@ -66,7 +66,7 @@ src="https://github.com/dabit-7/8-mrs/assets/30724543/21e0311b-1bc8-4fc8-869f-10
 <br>
 
 <img class="img" src="https://github.com/dabit-7/8-mrs/assets/30724543/fdd88deb-4f25-4a9f-8829-17491affccc9" style="width:auto;">
-https://github.dev/dabit-7/8-mrs/blob/main/index.html<br>
+<br>
 <p class="f1">Photo 04 – Defects inserted in the test specimens</p>
 <p class="p2">Foto 04 – Defeitos inseridos nos Corpos-de-prova</p> 
 <br>
@@ -142,20 +142,42 @@ https://github.dev/dabit-7/8-mrs/blob/main/index.html<br>
 <br>
 
 
-<iframe width="100%" height="100%"
+<iframe id="Iframe"
 src="https://github.com/dabit-7/8-mrs/assets/30724543/d302afa0-a8cc-4e56-8c54-150790f8877c">
 </iframe>
 
 <br><br>
 
-<iframe width="100%" height="100%" 
+<iframe  id="Iframe"
 src="https://github.com/dabit-7/8-mrs/assets/30724543/dfe0323e-8428-497b-a9ac-e499ce620bff">
 </iframe>
 
 <br><br>
 
-<iframe width="100%" height="100%"
+<iframe  id="Iframe"
 src="https://github.com/dabit-7/8-mrs/assets/30724543/0f13c730-7177-48f8-aa33-2ce07bdf05c0">
 </iframe>
 
 </div>
+
+<script>
+    // Selecting the iframe element
+    var frame = document.getElementById("Iframe");
+      
+    // Adjusting the iframe height onload event
+    frame.onload = function()
+    // function execute while load the iframe
+    {
+      // set the height of the iframe as 
+      // the height of the iframe content
+      frame.style.height = 
+      frame.contentWindow.document.body.scrollHeight + 'px';
+       
+
+     // set the width of the iframe as the 
+     // width of the iframe content
+     frame.style.width  = 
+      frame.contentWindow.document.body.scrollWidth+'px';
+          
+    }
+    </script>
